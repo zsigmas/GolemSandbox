@@ -15,6 +15,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Checking...'
+                sh 'R -e "Sys.getenv()"'
                 sh 'make check'
             }
         }
