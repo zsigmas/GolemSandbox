@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('Build') {
             steps {
@@ -8,14 +7,16 @@ pipeline {
                 sh 'make build'
             }
         }
-        stage('Check') {
+        stage('Test') {
             steps {
                 echo 'Checking...'
+                sh 'make check'
             }
         }
         stage('Clean') {
             steps {
                 echo 'Cleaning...'
+                sh 'make clean'
             }
         }
     }
