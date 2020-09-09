@@ -14,7 +14,7 @@ LazyData: true
 RoxygenNote: 6.1.1
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2020-09-09 09:26:04 UTC; zsigmas
+Packaged: 2020-09-09 09:51:53 UTC; zsigmas
 Author: firstname lastname [aut, cre]
 Maintainer: firstname lastname <your@email.com>
-Built: R 3.6.3; ; 2020-09-09 09:26:05 UTC; unix
+Built: R 3.6.3; ; 2020-09-09 09:51:54 UTC; unix
