@@ -1,5 +1,10 @@
 pipeline {
     agent any
+    
+    environment{
+    R_LIBS_SITE='/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library'
+    }
+    
     stages {
         stage('Build') {
             steps {
