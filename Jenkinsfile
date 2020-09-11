@@ -1,8 +1,8 @@
 pipeline {
-    agent any
+    agent {dockerfile true}
     
     environment{
-    R_LIBS_SITE='/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library'
+    R_LIBS_SITE='/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library:'
     }
     
     stages {
